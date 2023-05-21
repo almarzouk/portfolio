@@ -8,6 +8,7 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Pricing from "./components/priceing/Pricing";
 import Contact from "./components/contact/Contact";
 import Testimonials from "./components/testimonials/Testimonials";
+import Skills from "./components/skills/Skills";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Home />
         <About />
         <Services />
+        <Skills />
         <Resume />
         <Portfolio />
         <Pricing />

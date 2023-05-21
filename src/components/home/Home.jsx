@@ -11,7 +11,7 @@ function Home() {
         <h1 className="home__name">Jumaa Almarzouk</h1>
         <span className="home__education">I'm a Full-stack Developer</span>
         <HeaderSocials />
-        <a href="#contact" className="btn">
+        <a href="mailto:jumaa.almarzouk@gmail.com" className="btn">
           Hire Me
         </a>
         <ScrollDown />

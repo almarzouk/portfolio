@@ -10,7 +10,7 @@ function Portfolio() {
     setItems(updatedItems);
   };
   return (
-    <section className="work container section" id="work">
+    <section className="work container section" id="portfolio">
       <h2 className="section__title">Recent Works</h2>
       <div className="work__filters">
         <span
@@ -24,40 +24,64 @@ function Portfolio() {
         <span
           className="work__item"
           onClick={() => {
-            filterItem("Creative");
+            filterItem("Static Website");
           }}
         >
-          Creative
+          Static Website
         </span>
         <span
           className="work__item"
           onClick={() => {
-            filterItem("Art");
+            filterItem("PHP");
           }}
         >
-          Art
+          PHP
         </span>
         <span
           className="work__item"
           onClick={() => {
-            filterItem("Design");
+            filterItem("Javascript");
           }}
         >
-          Design
+          Javascript
         </span>
         <span
           className="work__item"
           onClick={() => {
-            filterItem("Branding");
+            filterItem("Laravel");
           }}
         >
-          Branding
+          Laravel
+        </span>
+        <span
+          className="work__item"
+          onClick={() => {
+            filterItem("MERN");
+          }}
+        >
+          MERN
+        </span>
+        <span
+          className="work__item"
+          onClick={() => {
+            filterItem("Tailwind");
+          }}
+        >
+          Tailwind
+        </span>
+        <span
+          className="work__item"
+          onClick={() => {
+            filterItem("Reactjs");
+          }}
+        >
+          Reactjs
         </span>
       </div>
 
       <div className="work__container grid">
         {items.map((item) => {
-          const { id, image, title, category } = item;
+          const { id, image, title, category, link } = item;
           return (
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
@@ -67,7 +91,7 @@ function Portfolio() {
 
               <span className="work__category">{category}</span>
               <h3 className="work__title">{title}</h3>
-              <a href="#" className="work__button">
+              <a href={link} className="work__button" target="_blank">
                 <i className="icon-link work__button-i"></i>
               </a>
             </div>

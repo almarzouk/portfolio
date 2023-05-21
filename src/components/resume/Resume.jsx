@@ -3,7 +3,7 @@ import Data from "./Data.js";
 import Card from "./Card";
 function Resume() {
   return (
-    <section className="container resume section">
+    <section className="container resume section" id="experience">
       <h2 className="section__title">Experience</h2>
 
       <div className="resume__container grid">

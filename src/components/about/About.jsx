@@ -10,11 +10,15 @@ function About() {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              I am Bolby Doe, web developer from London, United Kingdom. I have
-              rich experience in web site design and building and customization,
-              also I am good at WordPress.
+              I'm a self-taught full stack MERN developer with expertise in
+              MongoDB, Express.js, React.js, and Node.js. I'm also skilled in
+              HTML, CSS, Sass, JavaScript, Bootstrap, PHP, MySQL, and WordPress.
             </p>
-            <a href="/" className="btn">
+            <a
+              href="../../assets/mern ALMARZOUK Jumaa WEB 2022.pdf"
+              className="btn"
+              download
+            >
               Download CV
             </a>
           </div>

@@ -6,28 +6,28 @@ const data = [
   {
     id: 1,
     image: Img1,
-    title: "Graphic design",
+    title: "Web Design",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Engaging and intuitive web designs that provide a seamless user experience. ",
   },
   {
     id: 2,
     image: Img2,
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Custom web development solutions tailored to meet your specific business needs.",
   },
   {
     id: 3,
-    image: Img3,
-    title: "Photography",
+    image: Img2,
+    title: "WordPress Development",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Professional WordPress development services to help you create a powerful online presence.",
   },
 ];
 function Services() {
   return (
-    <section className="services container section">
+    <section className="services container section" id="services">
       <h2 className="section__title">Services</h2>
       <div className="services__container grid">
         {data.map(({ id, image, title, description }) => {
