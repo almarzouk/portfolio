@@ -15,7 +15,7 @@ function About() {
               HTML, CSS, Sass, JavaScript, Bootstrap, PHP, MySQL, and WordPress.
             </p>
             <a
-              href="../../assets/mern ALMARZOUK Jumaa WEB 2022.pdf"
+              href="../../assets/jumaa_lebenslauf.pdf"
               className="btn"
               download
             >

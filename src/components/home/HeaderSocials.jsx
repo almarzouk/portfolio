@@ -2,14 +2,6 @@ function HeaderSocials() {
   return (
     <div className="home__socials">
       <a
-        href="http://www.instagram.com/almarzouk.ju/"
-        className="home__social-link"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <i className="fa-brands fa-instagram"></i>
-      </a>
-      <a
         href="http://github.com/almarzouk"
         className="home__social-link"
         target="_blank"

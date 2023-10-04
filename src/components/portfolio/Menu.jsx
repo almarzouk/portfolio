@@ -15,14 +15,39 @@ import Work13 from "../../assets/13.jpg";
 import Work14 from "../../assets/14.jpg";
 import Work15 from "../../assets/15.jpg";
 import Work16 from "../../assets/16.jpg";
+import Work17 from "../../assets/17.jpg";
+import Work18 from "../../assets/18.jpg";
+import Work19 from "../../assets/19.jpg";
+import Work201 from "../../assets/20.jpg";
 import Work20 from "../../assets/work202.png";
 const Menu = [
   {
-    id: 10,
-    image: Work8,
-    title: "simple web application for tracking your goals",
-    category: "MERN",
-    link: "https://quiet-phoenix-c8dc75.netlify.app/",
+    id: 312312,
+    image: Work17,
+    title: "Responsive Landing Page for a solution company",
+    category: "Static Website",
+    link: "https://almarzouk.github.io/socialy/",
+  },
+  {
+    id: 434343,
+    image: Work18,
+    title: "Responsive Landing Page for a Real estate company",
+    category: "Static Website",
+    link: "https://almarzouk.github.io/realvine/",
+  },
+  {
+    id: 545455,
+    image: Work19,
+    title: "Responsive Landing Page for a Marketing company",
+    category: "Static Website",
+    link: "https://almarzouk.github.io/hoolix/",
+  },
+  {
+    id: 1230901923,
+    image: Work201,
+    title: "Responsive Landing Page for a Dental Prxis",
+    category: "Static Website",
+    link: "https://almarzouk.github.io/dentelo/",
   },
   {
     id: 2812398,
@@ -30,20 +55,6 @@ const Menu = [
     title: "Frontend react amazon clone",
     category: "Reactjs",
     link: "https://jumaa-amazon.netlify.app/",
-  },
-  {
-    id: 17,
-    image: Work14,
-    title: "simple web application for Publish posts",
-    category: "MERN",
-    link: "https://deft-kringle-2cec33.netlify.app",
-  },
-  {
-    id: 1231,
-    image: Work15,
-    title: "simple Blog application",
-    category: "MERN",
-    link: "https://aesthetic-pothos-b4dda4.netlify.app",
   },
   {
     id: 12,

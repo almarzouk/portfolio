@@ -48,22 +48,6 @@ function Portfolio() {
         <span
           className="work__item"
           onClick={() => {
-            filterItem("Laravel");
-          }}
-        >
-          Laravel
-        </span>
-        <span
-          className="work__item"
-          onClick={() => {
-            filterItem("MERN");
-          }}
-        >
-          MERN
-        </span>
-        <span
-          className="work__item"
-          onClick={() => {
             filterItem("Tailwind");
           }}
         >
