@@ -5,7 +5,6 @@ import Services from "./components/services/Services";
 import Resume from "./components/resume/Resume";
 import Portfolio from "./components/portfolio/Portfolio";
 import Sidebar from "./components/sidebar/Sidebar";
-import Pricing from "./components/priceing/Pricing";
 import Contact from "./components/contact/Contact";
 import Testimonials from "./components/testimonials/Testimonials";
 import Skills from "./components/skills/Skills";
