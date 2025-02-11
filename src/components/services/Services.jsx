@@ -1,7 +1,6 @@
 import "./Services.css";
 import Img1 from "../../assets/service-1.svg";
 import Img2 from "../../assets/service-2.svg";
-import Img3 from "../../assets/service-3.svg";
 const data = [
   {
     id: 1,
