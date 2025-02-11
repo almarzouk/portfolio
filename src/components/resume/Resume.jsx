@@ -21,6 +21,7 @@ function Resume() {
                 />
               );
             }
+            return null; // Return null when condition isn't met
           })}
         </div>
         <div className="timeline grid">
@@ -36,6 +37,7 @@ function Resume() {
                 />
               );
             }
+            return null; // Return null when condition isn't met
           })}
         </div>
       </div>
