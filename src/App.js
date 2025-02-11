@@ -21,7 +21,6 @@ function App() {
         <Skills />
         <Resume />
         <Portfolio />
-        <Pricing />
         <Testimonials />
         <Contact />
       </main>

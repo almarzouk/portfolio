@@ -1,15 +1,16 @@
 import "./Resume.css";
 import Data from "./Data.js";
 import Card from "./Card";
+
 function Resume() {
   return (
     <section className="container resume section" id="experience">
-      <h2 className="section__title">Experience</h2>
+      <h2 className="section__title">Erfahrung</h2>
 
       <div className="resume__container grid">
         <div className="timeline grid">
           {Data.map((val, id) => {
-            if (val.category === "education") {
+            if (val.category === "bildung") {
               return (
                 <Card
                   key={id}
@@ -24,7 +25,7 @@ function Resume() {
         </div>
         <div className="timeline grid">
           {Data.map((val, index) => {
-            if (val.category === "experience") {
+            if (val.category === "erfahrung") {
               return (
                 <Card
                   key={index}

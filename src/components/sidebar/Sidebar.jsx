@@ -47,7 +47,7 @@ function Sidebar() {
           </div>
         </nav>
         <div className="nav__footer">
-          <span className="copyright">&copy; 2023.</span>
+          <span className="copyright">&copy; {new Date().getFullYear()}.</span>
         </div>
       </aside>
       <div

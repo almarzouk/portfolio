@@ -9,6 +9,28 @@ function Skills() {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">
+                  <i className="fa-brands fa-html5"></i> HTML
+                </h3>
+                <span className="skills__number">88%</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage reactjs"></span>
+              </div>
+            </div>
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">
+                  <i className="fa-solid fa-css3"></i> CSS
+                </h3>
+                <span className="skills__number">90%</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage nodejs"></span>
+              </div>
+            </div>
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">
                   <i className="fa-brands fa-react"></i> REACTJS
                 </h3>
                 <span className="skills__number">80%</span>
@@ -87,6 +109,17 @@ function Skills() {
               <div className="skills__titles">
                 <h3 className="skills__name">
                   <i className="fa-brands fa-laravel"></i> LARAVEL
+                </h3>
+                <span className="skills__number">50%</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage laravel"></span>
+              </div>
+            </div>
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">
+                  <i className="fa-brands fa-aws"></i> AWS
                 </h3>
                 <span className="skills__number">50%</span>
               </div>

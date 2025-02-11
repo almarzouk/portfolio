@@ -3,12 +3,12 @@ import "./Contact.css";
 function Contact() {
   return (
     <section className="container section contact">
-      <h2 className="section__title">Get In Touch</h2>
+      <h2 className="section__title">Kontaktieren Sie mich</h2>
       <div className="contact__container grid">
         <div className="contact__info">
-          <h3 className="contact__title">Let's talk about everything</h3>
+          <h3 className="contact__title">Lassen Sie uns über alles sprechen</h3>
           <p className="contact__details">
-            Don't like forms? Send me an Email. 👋
+            Mögen Sie keine Formulare? Senden Sie mir eine E-Mail. 👋
           </p>
         </div>
         <form className="contact__form">
@@ -17,14 +17,14 @@ function Contact() {
               <input
                 type="text"
                 className="contact__form-input"
-                placeholder="your name"
+                placeholder="Ihr Name"
               />
             </div>
             <div className="contact__form-div">
               <input
                 type="email"
                 className="contact__form-input"
-                placeholder="your email"
+                placeholder="Ihre E-Mail"
               />
             </div>
           </div>
@@ -32,17 +32,17 @@ function Contact() {
             <input
               type="text"
               className="contact__form-input"
-              placeholder="your subject"
+              placeholder="Ihr Betreff"
             />
           </div>
           <div className="contact__form-div contact__form-area">
             <textarea
               type="text"
               className="contact__form-input"
-              placeholder="your message"
+              placeholder="Ihre Nachricht"
             ></textarea>
           </div>
-          <div className="btn">Send Message</div>
+          <div className="btn">Nachricht senden</div>
         </form>
       </div>
     </section>

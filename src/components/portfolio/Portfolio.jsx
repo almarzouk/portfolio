@@ -1,6 +1,7 @@
 import "./Portfolio.css";
 import Menu from "./Menu";
 import { useState } from "react";
+
 function Portfolio() {
   const [items, setItems] = useState(Menu);
   const filterItem = (categoryItem) => {
@@ -11,7 +12,7 @@ function Portfolio() {
   };
   return (
     <section className="work container section" id="portfolio">
-      <h2 className="section__title">Recent Works</h2>
+      <h2 className="section__title">Neueste Arbeiten</h2>
       <div className="work__filters">
         <span
           className="work__item"
@@ -19,7 +20,7 @@ function Portfolio() {
             setItems(Menu);
           }}
         >
-          Everything
+          Alles
         </span>
         <span
           className="work__item"
@@ -27,7 +28,7 @@ function Portfolio() {
             filterItem("Static Website");
           }}
         >
-          Static Website
+          Statische Website
         </span>
         <span
           className="work__item"
