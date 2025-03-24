@@ -1,4 +1,4 @@
-import Work from "../../assets/work-2.svg";
+tjsimport Work from "../../assets/work-2.svg";
 import Work1 from "../../assets/01.jpg";
 import Work2 from "../../assets/02.jpg";
 import Work3 from "../../assets/03.jpg";
@@ -156,7 +156,7 @@ const Menu = [
     id: 1200,
     image: "https://imgs.search.brave.com/1iMMj7WurKAKVbBWH5Ewd2etWoyr6bYKbs56XSD35xc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzMyLzEvbmV4dC1q/cy1sb2dvLXBuZ19z/ZWVrbG9nby0zMjE4/MDYucG5n",
     title: "Next js Blog App",
-    category: "Reactjs,
+    category: "Nextjs,
     link: "https://almarzouk.github.io/next-blog",
   },
 ];
