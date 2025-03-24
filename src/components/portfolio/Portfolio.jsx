@@ -62,6 +62,14 @@ function Portfolio() {
         >
           Reactjs
         </span>
+        <span
+          className="work__item"
+          onClick={() => {
+            filterItem("Nextjs");
+          }}
+        >
+          Next.js
+        </span>
       </div>
 
       <div className="work__container grid">
