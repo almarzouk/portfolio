@@ -26,13 +26,6 @@ const Menu = [
     category: "Statische Website",
     link: "https://almarzouk.github.io/socialy/",
   },
-    {
-    id: 111222333,
-    image: Work17,
-    title: "test",
-    category: "Statische Website",
-    link: "https://almarzouk.github.io/socialy/",
-  },
   {
     id: 434343,
     image: Work18,
