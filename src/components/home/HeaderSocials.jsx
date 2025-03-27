@@ -18,7 +18,7 @@ function HeaderSocials() {
         <i className="fa-brands fa-linkedin-in"></i>
       </a>
       <a
-        href="http://wa.me/0033076673306"
+        href="http://wa.me/+4917674724437"
         className="home__social-link"
         target="_blank"
         rel="noreferrer"

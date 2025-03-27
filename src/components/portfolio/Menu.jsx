@@ -17,6 +17,7 @@ import Work18 from "../../assets/18.jpg";
 import Work19 from "../../assets/19.jpg";
 import Work201 from "../../assets/20.jpg";
 import Work20 from "../../assets/work202.png";
+import Work21 from "../../assets/work21.png";
 
 const Menu = [
   {
@@ -154,7 +155,7 @@ const Menu = [
   },
   {
     id: 20,
-    image: Work7,
+    image: Work21,
     title: "Next js Blog",
     category: "Nextjs",
     link: "https://github.com/almarzouk/next-blog.git",
