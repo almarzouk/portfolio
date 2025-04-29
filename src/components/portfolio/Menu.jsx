@@ -18,6 +18,7 @@ import Work19 from "../../assets/19.jpg";
 import Work201 from "../../assets/20.jpg";
 import Work20 from "../../assets/work202.png";
 import Work21 from "../../assets/work21.png";
+import Work22 from "../../assets/work22.png";
 
 const Menu = [
   {
@@ -159,6 +160,13 @@ const Menu = [
     title: "Next js Blog",
     category: "Nextjs",
     link: "https://github.com/almarzouk/next-blog.git",
+  },
+  {
+    id: 22,
+    image: Work22,
+    title: "Next js Store",
+    category: "Nextjs",
+    link: "https://prostore-sgly.vercel.app/",
   },
 ];
 
