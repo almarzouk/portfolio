@@ -1,14 +1,9 @@
-import Work from "../../assets/work-2.svg";
 import Work1 from "../../assets/01.jpg";
 import Work2 from "../../assets/02.jpg";
 import Work3 from "../../assets/03.jpg";
 import Work4 from "../../assets/04.jpg";
-import Work5 from "../../assets/05.jpg";
 import Work6 from "../../assets/06.jpg";
 import Work7 from "../../assets/07.jpg";
-import Work9 from "../../assets/09.jpg";
-import Work10 from "../../assets/10.jpg";
-import Work11 from "../../assets/11.jpg";
 import Work12 from "../../assets/12.jpg";
 import Work13 from "../../assets/13.jpg";
 import Work16 from "../../assets/16.jpg";
@@ -78,27 +73,7 @@ const Menu = [
     category: "Reactjs",
     link: "https://jumaa-amazon.netlify.app/",
   },
-  {
-    id: 6,
-    image: Work9,
-    title: "Einfache Webanwendung zum Notizen machen",
-    category: "Reactjs",
-    link: "https://jumaa-notes.netlify.app/",
-  },
-  {
-    id: 7,
-    image: Work10,
-    title: "Einfache Webanwendung um Filme und Serien zu finden",
-    category: "Reactjs",
-    link: "https://jumaa-mov.netlify.app/",
-  },
-  {
-    id: 8,
-    image: Work11,
-    title: "Einfache Webanwendung zur Wetteranzeige",
-    category: "Reactjs",
-    link: "https://jumaa-weather.netlify.app/",
-  },
+
   {
     id: 9,
     image: Work12,
@@ -120,13 +95,7 @@ const Menu = [
     category: "Statische Website",
     link: "https://almarzouk.github.io/agancy/",
   },
-  {
-    id: 12,
-    image: Work,
-    title: "LaraGigs Website",
-    category: "Laravel",
-    link: "https://github.com/almarzouk/laragigs",
-  },
+
   {
     id: 13,
     image: Work2,
@@ -154,13 +123,6 @@ const Menu = [
     title: "Applab Beste App für deinen modernen Lebensstil",
     category: "Statische Website",
     link: "https://almarzouk.github.io/applab/",
-  },
-  {
-    id: 17,
-    image: Work5,
-    title: "Quiz App Website",
-    category: "Javascript",
-    link: "https://almarzouk.github.io/quiz-app/",
   },
   {
     id: 18,
