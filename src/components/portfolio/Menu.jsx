@@ -19,8 +19,30 @@ import Work201 from "../../assets/20.jpg";
 import Work20 from "../../assets/work202.png";
 import Work21 from "../../assets/work21.png";
 import Work22 from "../../assets/work22.png";
+import Work23 from "../../assets/work23.png";
 
 const Menu = [
+  {
+    id: 22,
+    image: Work22,
+    title: "Next js Store",
+    category: "Nextjs",
+    link: "https://prostore-sgly.vercel.app/",
+  },
+  {
+    id: 22,
+    image: Work23,
+    title: "Inventory app",
+    category: "Nextjs",
+    link: "https://github.com/almarzouk/inventory",
+  },
+  {
+    id: 20,
+    image: Work21,
+    title: "Next js Blog",
+    category: "Nextjs",
+    link: "https://github.com/almarzouk/next-blog.git",
+  },
   {
     id: 1,
     image: Work17,
@@ -153,20 +175,6 @@ const Menu = [
     title: "Bondi Theme Website",
     category: "Statische Website",
     link: "https://almarzouk.github.io/bondi/",
-  },
-  {
-    id: 20,
-    image: Work21,
-    title: "Next js Blog",
-    category: "Nextjs",
-    link: "https://github.com/almarzouk/next-blog.git",
-  },
-  {
-    id: 22,
-    image: Work22,
-    title: "Next js Store",
-    category: "Nextjs",
-    link: "https://prostore-sgly.vercel.app/",
   },
 ];
 
