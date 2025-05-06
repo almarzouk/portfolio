@@ -15,7 +15,7 @@ import Work20 from "../../assets/work202.png";
 import Work21 from "../../assets/work21.png";
 import Work22 from "../../assets/work22.png";
 import Work23 from "../../assets/work23.png";
-import Work24 from "../../assets/work24.png";
+import Work24 from "../../assets/Work24.png";
 
 const Menu = [
   {
