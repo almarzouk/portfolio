@@ -15,6 +15,7 @@ import Work20 from "../../assets/work202.png";
 import Work21 from "../../assets/work21.png";
 import Work22 from "../../assets/work22.png";
 import Work23 from "../../assets/work23.png";
+import Work24 from "../../assets/work24.png";
 
 const Menu = [
   {
@@ -23,6 +24,13 @@ const Menu = [
     title: "Next js Store",
     category: "Nextjs",
     link: "https://prostore-sgly.vercel.app/",
+  },
+  {
+    id: 312,
+    image: Work24,
+    title: "Mern stack Job Portal",
+    category: "Reactjs",
+    link: "https://jop-portal-client.vercel.app/",
   },
   {
     id: 22,
