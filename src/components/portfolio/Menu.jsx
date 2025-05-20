@@ -16,8 +16,16 @@ import Work21 from "../../assets/work21.png";
 import Work22 from "../../assets/work22.png";
 import Work23 from "../../assets/work23.png";
 import Work24 from "../../assets/Work24.png";
+import Work25 from "../../assets/Work25.png";
 
 const Menu = [
+  {
+    id: 21232,
+    image: Work25,
+    title: "PHP Job Portal",
+    category: "PHP",
+    link: "https://github.com/almarzouk/php-job-portal",
+  },
   {
     id: 22,
     image: Work22,
