@@ -3,7 +3,7 @@ import Work22 from "../../assets/work22.png";
 import Work23 from "../../assets/work23.png";
 import Work24 from "../../assets/Work24.png";
 import Work25 from "../../assets/Work25.png";
-import WorkTermin from "../../assets/termin.svg";
+import WorkTermin from "../../assets/termin.png";
 
 const Menu = [
   {
