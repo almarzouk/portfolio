@@ -15,8 +15,8 @@ function Home() {
           Full-Stack Entwickler in Haselünne
         </span>
         <p className="home__tagline">
-          React, Next.js, Node.js, PHP und WordPress · aktuell bei dream-soft
-          GmbH
+          React, Next.js, Node.js, PHP und WordPress · aktuell bei
+          dream-soft&nbsp;GmbH
         </p>
         <HeaderSocials />
         <div className="home__actions">
