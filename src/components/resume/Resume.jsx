@@ -9,11 +9,11 @@ function Resume() {
 
       <div className="resume__container grid">
         <div className="timeline grid">
-          {Data.map((val, id) => {
+          {Data.map((val) => {
             if (val.category === "bildung") {
               return (
                 <Card
-                  key={id}
+                  key={val.id}
                   icon={val.icon}
                   title={val.title}
                   year={val.year}
@@ -25,11 +25,11 @@ function Resume() {
           })}
         </div>
         <div className="timeline grid">
-          {Data.map((val, index) => {
+          {Data.map((val) => {
             if (val.category === "erfahrung") {
               return (
                 <Card
-                  key={index}
+                  key={val.id}
                   icon={val.icon}
                   title={val.title}
                   year={val.year}

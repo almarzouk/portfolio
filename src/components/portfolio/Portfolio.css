@@ -8,8 +8,12 @@
 .work__item{
     cursor: pointer;
     font-weight: var(--font-bold);
+    color: var(--text-color);
+    font-family: inherit;
+    font-size: inherit;
 }
-.work__item:hover{
+.work__item:hover,
+.work__item.is-active{
     color: var(--first-color);
 }
 .work__container{
@@ -53,13 +57,25 @@
 .work__title{
     color: #fff;
     font-size: var(--h3-font-size);
-    margin: 0 0 0.98rem;
+    margin: 0 0 0.5rem;
     padding: 0 1.25rem;
     position: absolute;
     top: 3.75rem;
     transform: translateY(30px);
     transition: .3s;
     opacity: 0;
+}
+.work__description{
+    color: #fff;
+    font-size: var(--small-font-size);
+    padding: 0 1.25rem;
+    position: absolute;
+    top: 6.4rem;
+    right: 1rem;
+    transform: translateY(30px);
+    transition: .3s;
+    opacity: 0;
+    line-height: 1.45;
 }
 .work__button{
     color: #fff;
@@ -81,10 +97,31 @@
 .work__card:hover .work__button{
     opacity: 1;
 }
-.work__card:hover .work__title
-,.work__card:hover .work__category{
+.work__image{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+.work__card:hover .work__title,
+.work__card:hover .work__category,
+.work__card:hover .work__description{
     opacity: 1;
     transform: translateY(0);
+}
+@media (hover: none), screen and (max-width: 768px) {
+    .work__mask{
+        opacity: .82;
+    }
+    .work__title,
+    .work__category,
+    .work__description,
+    .work__button{
+        opacity: 1;
+        transform: none;
+    }
+    .work__description{
+        display: none;
+    }
 }
 @media screen and (max-width: 1024px){
     .work__filters{

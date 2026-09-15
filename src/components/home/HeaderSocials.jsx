@@ -2,28 +2,31 @@ function HeaderSocials() {
   return (
     <div className="home__socials">
       <a
-        href="http://github.com/almarzouk"
+        href="https://github.com/almarzouk"
         className="home__social-link"
         target="_blank"
         rel="noreferrer"
+        aria-label="GitHub"
       >
-        <i className="fa-brands fa-github"></i>
+        <i className="fa-brands fa-github" aria-hidden="true"></i>
       </a>
       <a
-        href="http://www.linkedin.com/in/almarzouk/"
+        href="https://www.linkedin.com/in/almarzouk/"
         className="home__social-link"
         target="_blank"
         rel="noreferrer"
+        aria-label="LinkedIn"
       >
-        <i className="fa-brands fa-linkedin-in"></i>
+        <i className="fa-brands fa-linkedin-in" aria-hidden="true"></i>
       </a>
       <a
-        href="http://wa.me/+4917674724437"
+        href="https://wa.me/4917674724437"
         className="home__social-link"
         target="_blank"
         rel="noreferrer"
+        aria-label="WhatsApp"
       >
-        <i className="fa-brands fa-whatsapp"></i>
+        <i className="fa-brands fa-whatsapp" aria-hidden="true"></i>
       </a>
     </div>
   );
