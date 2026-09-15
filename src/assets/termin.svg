@@ -1,23 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Mein-Termin">
-  <rect width="1200" height="750" fill="#f4f7fb"/>
-  <rect x="70" y="60" width="1060" height="630" rx="28" fill="#ffffff" stroke="#e4e9f2"/>
-  <rect x="70" y="60" width="1060" height="88" rx="28" fill="#2563eb"/>
-  <rect x="70" y="120" width="1060" height="28" fill="#2563eb"/>
-  <text x="110" y="118" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="34" font-weight="700">Mein-Termin</text>
-  <text x="980" y="116" fill="#dbeafe" font-family="Montserrat, Arial, sans-serif" font-size="18">Praxen · Kliniken</text>
-  <rect x="110" y="190" width="360" height="430" rx="18" fill="#eff6ff"/>
-  <text x="140" y="240" fill="#1e3a8a" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="700">Nächster Termin</text>
-  <text x="140" y="280" fill="#334155" font-family="Montserrat, Arial, sans-serif" font-size="18">Hausarztpraxis Rheine</text>
-  <text x="140" y="320" fill="#2563eb" font-family="Montserrat, Arial, sans-serif" font-size="32" font-weight="700">Di 10:30</text>
-  <rect x="140" y="360" width="200" height="44" rx="22" fill="#2563eb"/>
-  <text x="168" y="389" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="600">Buchen</text>
-  <rect x="500" y="190" width="280" height="200" rx="18" fill="#f8fafc" stroke="#e2e8f0"/>
-  <text x="528" y="240" fill="#0f172a" font-family="Montserrat, Arial, sans-serif" font-size="20" font-weight="700">Patienten</text>
-  <text x="528" y="300" fill="#2563eb" font-family="Montserrat, Arial, sans-serif" font-size="40" font-weight="700">128</text>
-  <rect x="800" y="190" width="280" height="200" rx="18" fill="#f8fafc" stroke="#e2e8f0"/>
-  <text x="828" y="240" fill="#0f172a" font-family="Montserrat, Arial, sans-serif" font-size="20" font-weight="700">Termine heute</text>
-  <text x="828" y="300" fill="#2563eb" font-family="Montserrat, Arial, sans-serif" font-size="40" font-weight="700">16</text>
-  <rect x="500" y="420" width="580" height="200" rx="18" fill="#0f172a"/>
-  <text x="540" y="490" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="24" font-weight="700">Next.js · Laravel · TypeScript</text>
-  <text x="540" y="540" fill="#93c5fd" font-family="Montserrat, Arial, sans-serif" font-size="18">Buchung, Rollen, Dashboards und Akten</text>
+  <rect width="1200" height="750" fill="#1d4ed8"/>
+  <rect x="0" y="0" width="1200" height="140" fill="#1e3a8a"/>
+  <text x="64" y="88" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="44" font-weight="700">Mein-Termin</text>
+  <text x="820" y="84" fill="#bfdbfe" font-family="Montserrat, Arial, sans-serif" font-size="22">Praxen und Kliniken</text>
+  <rect x="64" y="196" width="360" height="490" rx="24" fill="#ffffff"/>
+  <text x="96" y="260" fill="#1e3a8a" font-family="Montserrat, Arial, sans-serif" font-size="24" font-weight="700">Nächster Termin</text>
+  <text x="96" y="310" fill="#334155" font-family="Montserrat, Arial, sans-serif" font-size="20">Hausarztpraxis Rheine</text>
+  <text x="96" y="380" fill="#2563eb" font-family="Montserrat, Arial, sans-serif" font-size="52" font-weight="700">Di 10:30</text>
+  <rect x="96" y="420" width="220" height="56" rx="28" fill="#2563eb"/>
+  <text x="138" y="456" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="20" font-weight="700">Buchen</text>
+  <rect x="456" y="196" width="320" height="230" rx="24" fill="#ffffff"/>
+  <text x="488" y="260" fill="#0f172a" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="700">Patienten</text>
+  <text x="488" y="350" fill="#2563eb" font-family="Montserrat, Arial, sans-serif" font-size="56" font-weight="700">128</text>
+  <rect x="808" y="196" width="328" height="230" rx="24" fill="#ffffff"/>
+  <text x="840" y="260" fill="#0f172a" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="700">Termine heute</text>
+  <text x="840" y="350" fill="#2563eb" font-family="Montserrat, Arial, sans-serif" font-size="56" font-weight="700">16</text>
+  <rect x="456" y="456" width="680" height="230" rx="24" fill="#0f172a"/>
+  <text x="500" y="540" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="28" font-weight="700">Next.js · Laravel · TypeScript</text>
+  <text x="500" y="600" fill="#93c5fd" font-family="Montserrat, Arial, sans-serif" font-size="22">Buchung, Rollen, Dashboards und Akten</text>
 </svg>

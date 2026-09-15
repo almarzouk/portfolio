@@ -44,6 +44,14 @@ function Sidebar() {
           </span>
         </div>
       </aside>
+      {toggle ? (
+        <button
+          type="button"
+          className="nav__backdrop"
+          aria-label="Menü schließen"
+          onClick={() => setToggle(false)}
+        />
+      ) : null}
       <button
         type="button"
         className={toggle ? "nav__toggle nav__toggle-open" : "nav__toggle"}

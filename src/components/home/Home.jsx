@@ -12,11 +12,10 @@ function Home() {
         </div>
         <h1 className="home__name">Jumaa Almarzouk</h1>
         <span className="home__education">
-          Full-Stack Entwickler in Haselünne
+          Full-Stack Entwickler · dream-soft GmbH
         </span>
         <p className="home__tagline">
-          React, Next.js, Node.js, PHP und WordPress · aktuell bei
-          dream-soft&nbsp;GmbH
+          Haselünne · React, Next.js, Node.js, PHP und WordPress
         </p>
         <HeaderSocials />
         <div className="home__actions">
