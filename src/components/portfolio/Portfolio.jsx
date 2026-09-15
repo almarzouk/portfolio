@@ -48,21 +48,20 @@ function Portfolio() {
             <article className="work__card" key={id}>
               <div className="work__thumbnail">
                 <img src={image} alt="" className="work__image" />
-                <div className="work__mask"></div>
+                <span className="work__category">{category}</span>
               </div>
-
-              <span className="work__category">{category}</span>
-              <h3 className="work__title">{title}</h3>
-              <p className="work__description">{description}</p>
-              <a
-                href={link}
-                className="work__button"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={`${title} öffnen`}
-              >
-                <i className="icon-link work__button-i" aria-hidden="true"></i>
-              </a>
+              <div className="work__body">
+                <h3 className="work__title">{title}</h3>
+                <p className="work__description">{description}</p>
+                <a
+                  href={link}
+                  className="work__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Projekt öffnen
+                </a>
+              </div>
             </article>
           );
         })}
