@@ -11,13 +11,39 @@
     z-index: 1;
 }
 
-.home__img{
-    margin-bottom: 1.5rem;
+.home__avatar{
+    width: 108px;
+    height: 108px;
+    margin: 0 auto 1.5rem;
+    border-radius: 50%;
+    background: var(--first-color);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: var(--font-bold);
+    letter-spacing: 0.04em;
 }
 .home__name{
     font-size: var(--h1-font-size);
     font-weight: var(--font-bold);
     margin-bottom: .5rem;
+}
+.home__education{
+    display: block;
+    font-weight: var(--font-semibold);
+    color: var(--title-color);
+}
+.home__tagline{
+    margin-top: 0.75rem;
+    color: var(--text-color);
+}
+.home__actions{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
 }
 
 .home__socials{ 

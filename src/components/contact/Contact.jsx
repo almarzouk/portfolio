@@ -1,49 +1,60 @@
 import "./Contact.css";
 
+const contacts = [
+  {
+    label: "E-Mail",
+    value: "jumaa.almarzouk@gmail.com",
+    href: "mailto:jumaa.almarzouk@gmail.com",
+    icon: "icon-envelope",
+  },
+  {
+    label: "LinkedIn",
+    value: "linkedin.com/in/almarzouk",
+    href: "https://www.linkedin.com/in/almarzouk/",
+    icon: "icon-social-linkedin",
+  },
+  {
+    label: "GitHub",
+    value: "github.com/almarzouk",
+    href: "https://github.com/almarzouk",
+    icon: "icon-social-github",
+  },
+  {
+    label: "Standort",
+    value: "Haselünne, Deutschland",
+    href: "https://www.google.com/maps/search/?api=1&query=Haseluenne",
+    icon: "icon-location-pin",
+  },
+];
+
 function Contact() {
   return (
-    <section className="container section contact">
-      <h2 className="section__title">Kontaktieren Sie mich</h2>
+    <section className="container section contact" id="contact">
+      <h2 className="section__title">Kontakt</h2>
+      <div className="contact__intro">
+        <h3 className="contact__title">Lassen Sie uns sprechen</h3>
+        <p className="contact__details">
+          Für Projekte, Stellen oder eine kurze Rückfrage schreiben Sie mir
+          direkt. Kein Formular, nur ein Klick.
+        </p>
+        <a href="mailto:jumaa.almarzouk@gmail.com" className="btn">
+          E-Mail schreiben
+        </a>
+      </div>
       <div className="contact__container grid">
-        <div className="contact__info">
-          <h3 className="contact__title">Lassen Sie uns über alles sprechen</h3>
-          <p className="contact__details">
-            Mögen Sie keine Formulare? Senden Sie mir eine E-Mail. 👋
-          </p>
-        </div>
-        <form className="contact__form">
-          <div className="contact__form-group">
-            <div className="contact__form-div">
-              <input
-                type="text"
-                className="contact__form-input"
-                placeholder="Ihr Name"
-              />
-            </div>
-            <div className="contact__form-div">
-              <input
-                type="email"
-                className="contact__form-input"
-                placeholder="Ihre E-Mail"
-              />
-            </div>
-          </div>
-          <div className="contact__form-div">
-            <input
-              type="text"
-              className="contact__form-input"
-              placeholder="Ihr Betreff"
-            />
-          </div>
-          <div className="contact__form-div contact__form-area">
-            <textarea
-              type="text"
-              className="contact__form-input"
-              placeholder="Ihre Nachricht"
-            ></textarea>
-          </div>
-          <div className="btn">Nachricht senden</div>
-        </form>
+        {contacts.map((item) => (
+          <a
+            className="contact__card"
+            key={item.label}
+            href={item.href}
+            target={item.href.startsWith("http") ? "_blank" : undefined}
+            rel={item.href.startsWith("http") ? "noreferrer" : undefined}
+          >
+            <i className={`contact__icon ${item.icon}`} aria-hidden="true"></i>
+            <span className="contact__label">{item.label}</span>
+            <span className="contact__value">{item.value}</span>
+          </a>
+        ))}
       </div>
     </section>
   );

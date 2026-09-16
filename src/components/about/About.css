@@ -1,13 +1,27 @@
+.about__mark{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #ffd15c;
+    color: var(--title-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: var(--font-bold);
+    justify-self: center;
+}
 .about__container{
     grid-template-columns: 3fr 9fr;
     column-gap: 1.875rem;
+    align-items: center;
 }
 .about__data{
     padding: 1.875rem;
     background-color: var(--container-color);
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr;
     column-gap: 1.875rem;
     align-items: flex-start;
     position: relative;
@@ -99,6 +113,7 @@
         left:49%;
         top: -20px;
     }
+    .about__mark,
     .about__img{
         justify-self: center;
     }
